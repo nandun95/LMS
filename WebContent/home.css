@@ -1,0 +1,384 @@
+body {
+    font-family: 'Bitter', serif;
+    text-decoration: none;
+  }
+  
+  /* Fixed sidenav, full height */
+  .sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(8, 3, 26);
+    overflow-x: hidden;
+    padding-top: 20px;
+    font-family: 'Bitter', serif;
+   color: rgb(231, 87, 3);
+
+  }
+  .sidenav img
+  {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-left: 40px;
+
+  }
+  .sidenav p
+  {
+      color: rgb(231, 87, 3);
+      font-family: 'Bitter', serif;
+      margin-left: 40px;
+      font-size: 30px;
+  }
+  
+  /* Style the sidenav links and the dropdown button */
+  .sidenav a, .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+  }
+  
+  /* On mouse-over */
+  .sidenav a:hover, .dropdown-btn:hover {
+    color: #f1f1f1;
+    background-image:linear-gradient(-90deg, red, rgb(255, 145, 0)) ;
+  }
+  
+  /* Main content */
+  .main {
+   
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(images/elearning-banner-blog.png);
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed;
+    font-family: 'Bitter', serif;
+    height: 300px;
+    
+}
+.jclass p
+{
+    color: #f1f1f1;
+}
+.main h2
+{color: white;
+padding-top: 20px;}
+.main h1
+{
+    color: white;
+    font-weight: 600;
+   
+}
+
+.login
+{
+    width: 100px;
+    border-radius: 20px;
+    border: none;
+    background-color:rgba(4, 5, 56, 0.76) ;
+    color: white;
+    margin-top: 40px;
+   
+}
+.login:hover
+{
+    background-image: linear-gradient(-90deg, red, rgb(255, 145, 0));
+    border: 2px solid white;
+}
+.left
+{
+    margin-left: 200px; /* Same as the width of the sidenav */
+    
+    
+    
+}
+.row
+{
+    width: 100%;
+    padding-left: 30px;
+}
+.main-text
+{
+    background-image: linear-gradient(-90deg, red, rgb(255, 145, 0));
+    font-family: 'Bitter', serif;
+    font-size: 20px;
+    
+    text-align: center;
+    color: white;
+    height: 40px;
+
+}
+.group1
+{
+    text-align: center;
+    font-size: 60px;
+    background-color: rgb(255, 0, 200);
+    width: 50px;
+    width: 100%;
+    margin: 5px;
+    border-radius:20px ;
+    color: rgb(250, 250, 250) !important;
+    transition: transform .2s;
+   
+}
+.group1:hover
+{
+    transform: scale(1.05);
+   
+    color: white;
+}
+.group2
+{
+    text-align: center;
+    font-size: 60px;
+    background-color: rgb(230, 183, 28);
+    width: 50px;
+    width: 100%;
+    margin: 5px;
+    border-radius:20px ;
+    color: white;
+    transition: transform .2s;
+}
+.group2:hover
+{
+    transform: scale(1.05);
+   
+    color: white;
+}
+.group3
+{
+    text-align: center;
+    font-size: 60px;
+    background-color: rgb(0, 119, 255);
+    width: 50px;
+    width: 100%;
+    margin: 5px;
+    border-radius:20px ;
+    color: white;
+    transition: transform .2s;
+}
+.group3:hover
+{
+    transform: scale(1.05);
+   
+    color: white;
+}
+.group4
+{
+    text-align: center;
+    font-size: 60px;
+    background-color: rgb(7, 173, 35);
+    width: 50px;
+    width: 100%;
+    margin: 5px;
+    border-radius:20px ;
+    color: white;
+    transition: transform .2s;
+}
+.group4:hover
+{
+    transform: scale(1.05);
+    
+    color: white;
+}
+.secend
+{
+    font-size: 20px;
+    font-family: 'Bitter', serif;
+   
+}
+.co
+{
+    margin-top: 60px;
+}
+.titles
+{
+    font-family: 'Bitter', serif;
+    font-weight: 600;
+    font-size: 40px;
+}
+#search
+{
+    width: 100%;
+    border-radius: 20px;
+    font-family: 'Bitter', serif;
+    height: 50%;
+    margin-top: 10px;
+}
+#search ::placeholder
+{
+    margin-left: 10px;
+    text-align: center;
+}
+.box
+{
+    box-shadow: 0 0 10px rgba(37,73,214,0.18);
+    margin-bottom: 30px;
+    margin-top: 10px;
+    font-family: 'Bitter', serif;
+    border: 1px solid rgb(241, 114, 9);
+    padding: 0;
+    transition: transform .2s;
+    width: 100%;
+    color: black !important;
+    
+    
+}
+.box:hover
+{
+    transform: scale(1.05);
+    background-image: linear-gradient(-90deg, red, rgb(255, 145, 0));
+    color: white;
+}
+.co-img
+{
+    
+   
+    width: 100%;
+    height: 80%;
+    margin: 0;
+    padding: 0;
+   
+    
+}
+.box-text1
+{
+    font-size: 12px;
+    margin-left: 10px;
+    margin-bottom: 0;
+    color: black !important;
+    
+}
+.box-text2
+{
+    margin-left: 10px;
+    color: black !important;
+   
+}
+.box-text3
+{
+    font-size: 12px;
+    text-align: left;
+    margin-bottom: 0;
+    margin-bottom: 10px;
+    color: black !important;
+}
+.box-text4
+{
+    font-size: 12px;
+    text-align: right;
+    margin-bottom: 0;
+    margin-bottom: 10px;
+    color: black !important;
+}
+.box-link
+{
+ 
+}
+.about
+{
+    background: url(images/teacher.jpg);
+    height: 600px;
+    background-size: cover;
+}
+
+.titles-about
+{
+    font-family: 'Bitter', serif;
+    font-weight: 600;
+    font-size: 40px;
+    margin-left: 70%;
+    padding-top: 200px;
+}
+.sub-about
+{
+    font-family: 'Bitter', serif;
+    font-weight: 300;
+    font-size: 15px;
+    margin-left: 70%; 
+}
+.nws
+{
+    background-image: linear-gradient(-90deg, red, rgb(255, 145, 0));
+    margin: 20;
+}
+
+.n1
+{
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: 'Bitter', serif;
+    color: white;
+}
+.n2
+{
+    font-size: 15px;
+    font-family: 'Bitter', serif;
+    color: white;
+}
+.subcribe
+{
+    background-color: tomato;
+    color: white;
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+.subcribe:hover
+{
+    background-color:  rgb(4, 5, 56);
+}
+.flooter
+{
+    height: 300px;
+    background-color: rgb(8, 3, 26);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.9)),url(images/elearning-banner-blog.png);
+    
+}
+.flooter .row
+{
+    padding-top: 40px;
+}
+
+
+  
+  /* Add an active class to the active dropdown button */
+  .active {
+    background-image: linear-gradient(-90deg, red, rgb(255, 145, 0));
+    color: white;
+  }
+  
+  /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+  .dropdown-container {
+    display: none;
+    background-color: #262626;
+    padding-left: 8px;
+  }
+  
+  /* Optional: Style the caret down icon */
+  .fa-caret-down {
+    float: right;
+    padding-right: 8px;
+  }
+  
+  /* Some media queries for responsiveness */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
